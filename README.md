@@ -29,9 +29,9 @@ The default delay is 2000(2 seconds) and the default speed is 1000(1 seconds)
 Usage:
 -----
 *Make sure that you have loaded jquery and the plugin file before.*
-##html:
+Html code:
 What you need to do is just put image elements in a div:
-```html
+```
   <div id="banner">
     <a href='#'><img alt="banner" src="images/index.jpg" /></a>
     <a href='#'><img alt="banner" src="images/office.jpg" /></a>
