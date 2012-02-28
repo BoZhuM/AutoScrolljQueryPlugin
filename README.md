@@ -37,9 +37,11 @@ Usage:
     <a href='#'><img alt="banner" src="images/outerdoor.jpg" /></a>
   </div>
 ```
+
 Make sure that you have loaded jquery and the plugin file before.
 What you need to do is just put image elements in a div.
 You can even remove a tags, leaving img tags listed alone.
+
 ```javascript
 <script type="text/javascript">
   $(document).ready(function(){
@@ -51,6 +53,7 @@ You can even remove a tags, leaving img tags listed alone.
   })
 </script>
 ```
+
 Demo:
 -----
-[http://codes.jndchina.com/demo.html](http://codes.jndchina.com/demo.html)
+[http://codes.jndchina.com/demo.html] (http://codes.jndchina.com/demo.html)
