@@ -19,12 +19,21 @@ $("#hock").autoScroll({
 }
 ```
 As you loaded the plugin, you get a function called autoScroll. 
+
 Thif function gets 3 arguments: width, height and delay.
+
 **width**  : specify the width for all images displayed in the element you specified(#hock here)
+
 **height** : specify the height for all images displayed in the element you specified(#hock here)
+
 **delay**  : specify the time between two scrolling animations. 3000 means every image will show in the banner for 3 seconds. 
+
 **speed**  : specify the time during one scrolling animation. 1000 means every image will show in the banner for 1 seconds. 
-If you do not specify the argument, The plugin will make the first image's size as the standard size. For example, the first image's width is 100 and its' height is 150, you will get a banner in the size 100 * 150.
+
+If you do not specify the argument, The plugin will make the first image's size as the standard size. 
+
+For example, the first image's width is 100 and its' height is 150, you will get a banner in the size 100 * 150.
+
 The default delay is 2000(2 seconds) and the default speed is 1000(1 seconds)
 
 Usage:
@@ -38,9 +47,11 @@ Usage:
   </div>
 ```
 
-Make sure that you have loaded jquery and the plugin file before.
+Make sure that you have the jquery library and  auto_scroll_jquery_plugin.js loaded before.
+
 What you need to do is just put image elements in a div.
-You can even remove a tags, leaving img tags listed alone.
+
+In this example, You can even remove a tags, leaving img tags listed alone.What the Plugin care is only image tags, not any other elements.
 
 ```javascript
 <script type="text/javascript">
