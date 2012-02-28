@@ -53,4 +53,4 @@ What you need to do is just put image elements in a div:
 ```
 Demo:
 -----
-[Simple example link for this Plugin](http://codes.jndchina.com/demo.html "demo for AutoScrolljQueryPlugin")
+[http://codes.jndchina.com/demo.html](http://codes.jndchina.com/demo.html)
