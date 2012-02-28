@@ -25,13 +25,11 @@ Thif function gets 3 arguments: width, height and delay.
 **delay**  : specify the time between two scrolling animations. 3000 means every image will show in the banner for 3 seconds. 
 **speed**  : specify the time during one scrolling animation. 1000 means every image will show in the banner for 1 seconds. 
 If you do not specify the argument, The plugin will make the first image's size as the standard size. For example, the first image's width is 100 and its' height is 150, you will get a banner in the size 100 * 150.
-The default delay is 2000(2 seconds) and the default speed is 1000(1 seconds) 
+The default delay is 2000(2 seconds) and the default speed is 1000(1 seconds)
+
 Usage:
 -----
-*Make sure that you have loaded jquery and the plugin file before.*
-Html code:
-What you need to do is just put image elements in a div:
-```
+```html
   <div id="banner">
     <a href='#'><img alt="banner" src="images/index.jpg" /></a>
     <a href='#'><img alt="banner" src="images/office.jpg" /></a>
@@ -39,7 +37,9 @@ What you need to do is just put image elements in a div:
     <a href='#'><img alt="banner" src="images/outerdoor.jpg" /></a>
   </div>
 ```
-*You can even remove a tags, leaving img tags listed alone.*
+Make sure that you have loaded jquery and the plugin file before.
+What you need to do is just put image elements in a div.
+You can even remove a tags, leaving img tags listed alone.
 ```javascript
 <script type="text/javascript">
   $(document).ready(function(){
